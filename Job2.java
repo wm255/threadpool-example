@@ -1,7 +1,12 @@
-public class Job implements Runnable {
+public class Job2 implements Runnable {
 private int jobNumber;
 
-Job (int jobNumber) {
+/**
+ * Job2 Constructor
+ *
+ * @param jobNumber A parameter
+ */
+Job2 (int jobNumber) {
 this.jobNumber = jobNumber;
 }
 
